@@ -31,7 +31,8 @@ jobs:
                pull_number: context.issue.number,
                owner: context.repo.owner,
                repo: context.repo.repo,
-               body: 'This is a fake comment'
+               body: 'This is a fake comment',
+               position: 1
              })
                
 
