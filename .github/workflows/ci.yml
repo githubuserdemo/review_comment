@@ -33,7 +33,8 @@ jobs:
                repo: context.repo.repo,
                body: 'This is a fake comment',
                commit_id: '${{ github.sha }}',
-               position: 1
+               position: 1,
+               path: "README.md"
              })
                
 
